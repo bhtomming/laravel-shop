@@ -27,9 +27,16 @@
         }
     },
     "autoload-dev": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
         "psr-4": {
-            "Tests\\": "tests/"
-        }
+            "App\\": "app/"
+        },
+        "files": [
+            "bootstrap/helpers.php"
+        ]
     },
     "extra": {
         "laravel": {
